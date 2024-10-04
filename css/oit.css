@@ -1,0 +1,90 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: url('img/oit-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff; /* Texto blanco */
+}
+
+header {
+    background: rgba(0, 123, 255, 0.9); /* Fondo azul oscuro con transparencia */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Color dorado en hover */
+}
+
+main {
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro con un poco de transparencia */
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto 15px;
+    max-width: 150px;
+}
+
+h2 {
+    color: #ffd700; /* Títulos dorados */
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7); /* Sombra de texto */
+}
+
+.info-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+    font-size: 1em;
+}
+
+.info-button:hover {
+    background-color: #218838;
+    transform: translateY(-2px); /* Efecto de elevación */
+}
+
+.info-text {
+    margin-top: 10px;
+    color: #f1f1f1; /* Texto más claro para la información */
+    font-style: italic;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: rgba(0, 0, 0, 0.8);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    color: #ffffff;
+}
